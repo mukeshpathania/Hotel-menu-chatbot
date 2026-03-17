@@ -15,7 +15,7 @@ except FileNotFoundError:
     menu = {}
 
 def show_menu():
-    response = "📋 **Dhaba Menu Categories**\n"
+    response = "📋 **Hotel Menu Categories**\n"
     response += "Type a category name to see items:\n\n"
     for i, category in enumerate(menu, 1):
         display_name = category.replace('_', ' ').title()
