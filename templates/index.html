@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id = "content">
+    <h1>Hotel Menu Chatbot</h1>
+    <div id="chatbox"></div>
+    <h4>Type menu for menu</h4>
+    <input id="message">
+    <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+    function sendMessage(){
+        let inputField = document.getElementById("message");
+        let message = inputField.value;
+
+        if(!message.trim()) return;
+
+        inputField.value = "";
+
+        fetch("/chat",{
+            method:"POST",
+            headers: {"Content-Type":"application/json"},
+            body: JSON.stringify({message: message})
+        })
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("chatbox").innerHTML +=
+            "<p><b>You:</b> " + message + "</p>" +
+            "<p><b>Bot:</b> " + data.response.replace(/\n/g,"<br>") + "</p>";
+            chatbox.scrollTop = chatbox.scrollHeight;
+        });
+    }
+    document.getElementById("message").addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            sendMessage();
+        }
+    });
+    </script>
+
+
+
+</body>
+</html>

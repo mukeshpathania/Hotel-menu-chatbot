@@ -1,0 +1,135 @@
+{
+  "veg_main_course": {
+    "Dal": {
+      "Dal Tadka": 120,
+      "Dal Fry": 110,
+      "Dal Makhani": 150,
+      "Dal Panchmel": 140,
+      "Dal Palak": 130
+    },
+
+    "Paneer": {
+      "Paneer Butter Masala": 180,
+      "Kadai Paneer": 170,
+      "Shahi Paneer": 190,
+      "Paneer Bhurji": 160,
+      "Paneer Do Pyaza": 170,
+      "Paneer Lababdar": 185,
+      "Paneer Tikka Masala": 190,
+      "Matar Paneer": 170,
+      "Palak Paneer": 165,
+      "Paneer Handi": 180
+    },
+
+    "Vegetables": {
+      "Aloo Gobi": 130,
+      "Mix Veg": 140,
+      "Bhindi Masala": 140,
+      "Aloo Matar": 120,
+      "Baingan Bharta": 150,
+      "Gobi Masala": 130,
+      "Jeera Aloo": 110,
+      "Aloo Palak": 120,
+      "Kadai Vegetable": 150,
+      "Veg Kolhapuri": 160
+    }
+  },
+
+  "non_veg_main_course": {
+    "Chicken": {
+      "Butter Chicken": 260,
+      "Chicken Curry": 240,
+      "Chicken Kadai": 250,
+      "Chicken Handi": 260,
+      "Chicken Masala": 240,
+      "Chicken Tikka Masala": 270,
+      "Chicken Do Pyaza": 250,
+      "Chicken Saag": 240
+    },
+
+    "Mutton": {
+      "Mutton Curry": 320,
+      "Mutton Rogan Josh": 340,
+      "Mutton Kadai": 330,
+      "Mutton Handi": 350,
+      "Mutton Masala": 330
+    },
+
+    "Egg": {
+      "Egg Curry": 140,
+      "Egg Bhurji": 120,
+      "Egg Masala": 150,
+      "Boiled Egg": 30,
+      "Half Fry Egg": 50,
+      "Double Omelette": 70
+    }
+  },
+
+  "Roti": {
+    "Tandoori Roti": 15,
+    "Butter Roti": 20,
+    "Plain Naan": 40,
+    "Butter Naan": 50,
+    "Garlic Naan": 60,
+    "Cheese Naan": 70,
+    "Lachha Paratha": 45,
+    "Aloo Paratha": 60,
+    "Paneer Paratha": 70,
+    "Gobhi Paratha": 60,
+    "Missi Roti": 35,
+    "Makki Roti": 40
+  },
+
+  "rice": {
+    "Plain Rice": 90,
+    "Jeera Rice": 110,
+    "Veg Pulao": 130,
+    "Peas Pulao": 120,
+    "Kashmiri Pulao": 150,
+    "Veg Biryani": 180,
+    "Chicken Biryani": 220,
+    "Egg Biryani": 170,
+    "Mutton Biryani": 260,
+    "Curd Rice": 120
+  },
+
+  "snacks": {
+    "Samosa": 20,
+    "Veg Pakora": 60,
+    "Paneer Pakora": 120,
+    "Aloo Pakora": 70,
+    "Onion Pakora": 70,
+    "Bread Pakora": 50,
+    "Veg Cutlet": 80,
+    "French Fries": 90,
+    "Chilli Potato": 110,
+    "Veg Spring Roll": 120
+  },
+
+  "drinks": {
+    "Tea": 20,
+    "Masala Tea": 25,
+    "Coffee": 40,
+    "Cold Coffee": 80,
+    "Sweet Lassi": 60,
+    "Salted Lassi": 60,
+    "Mango Lassi": 80,
+    "Buttermilk": 40,
+    "Cold Drink": 40,
+    "Lemon Soda": 40,
+    "Mineral Water": 20
+  },
+
+  "desserts": {
+    "Gulab Jamun": 50,
+    "Rasgulla": 50,
+    "Kheer": 70,
+    "Rice Kheer": 70,
+    "Carrot Halwa": 90,
+    "Moong Dal Halwa": 110,
+    "Ice Cream Vanilla": 60,
+    "Ice Cream Chocolate": 60,
+    "Kulfi": 70,
+    "Rabri": 100
+  }
+}
